@@ -6,7 +6,7 @@ $('.burger-menu').click(function () {
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("show");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close-menu")[0];
@@ -14,11 +14,23 @@ var span = document.getElementsByClassName("close-menu")[0];
 // When the user clicks the button, open the modal 
 btn.onclick = function () {
     modal.style.display = "block";
+    const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+    const body = document.body;
+    body.style.height = '100vh';
+    body.style.overflowY = 'hidden';
 }
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
     modal.style.display = "none";
+    const body = document.body;
+    const scrollY = body.style.top;
+    body.style.position = '';
+    body.style.top = '';
+    body.style.height = '';
+    body.style.overflowY = '';
+    window.scrollTo(0, parseInt(scrollY || '0') * -1);
+    document.getElementById('myModal').classList.remove('show');
 }
 
 // When the user clicks anywhere outside of the modal, close it
