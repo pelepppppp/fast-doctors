@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'HiraginoSans';
+    src: url('../fonts/HiraginoSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansJPBold';
+    src: url('../fonts/NotoSansJP-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansJPRegular';
+    src: url('../fonts/NotoSansJPRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansJPLight';
+    src: url('../fonts/NotoSansJPLight.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../fonts/JosefinSans.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YuGothicRegular';
+    src: url('../fonts/YuGothicRegular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'YuGothicBold';
+    src: url('../fonts/YuGothicBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Din2014';
+    src: url('../fonts/Din2014.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
