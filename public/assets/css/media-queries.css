@@ -124,10 +124,6 @@
         -ms-flex-direction: column;
         flex-direction: column;
         position: relative;
-        top: 39%;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
     }
 
     .header-buttons-wrapper .header-button-1 {
