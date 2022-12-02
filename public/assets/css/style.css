@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 .default-width {
